@@ -266,9 +266,9 @@ h2 {
 
 .profile-photo {
   width: calc(100% + 2.8rem);
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1;
   object-fit: cover;
-  object-position: center 24%;
+  object-position: center 22%;
   margin: -1.4rem -1.4rem 1.25rem;
   border-radius: 21px 21px 0 0;
 }
