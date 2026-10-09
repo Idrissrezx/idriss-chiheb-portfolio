@@ -22,7 +22,7 @@
         <div class="container nav-wrap">
           <a href="#top" class="brand" aria-label="Idriss Chiheb home">
             <span class="brand-mark">IC</span>
-            <span class="brand-text">Idriss Chiheb</span>
+            <span class="brand-text">Portfolio</span>
           </a>
 
           <button
@@ -46,35 +46,33 @@
           </nav>
         </div>
       </header>
-
+-
       <main id="top">
         <section class="hero">
-          <div class="container hero-grid">
+          <div class="container hero-grid" aria-labelledby="hero-title">
             <div class="hero-copy">
-              <p class="eyebrow">Cybersecurity • Software Engineering • Secure Systems</p>
-              <h1>Building secure, reliable digital systems with practical engineering focus.</h1>
+              <p class="eyebrow">Hello, I’m</p>
+              <h1 id="hero-title">Idriss <span>Chiheb</span></h1>
+              <p class="hero-role" aria-label="Cybersecurity and computer science student, full-stack software developer, and swimming coach with three years of experience.">
+                <span class="visually-hidden">Cybersecurity and computer science student, full-stack software developer, and swimming coach with three years of experience.</span>
+                <span id="typewriter-text" aria-hidden="true">Cybersecurity &amp; Computer Science Student</span>
+                <span class="typing-cursor" aria-hidden="true"></span>
+              </p>
               <p class="lead">
-                I’m Idriss Chiheb, a motivated cybersecurity and computer science student
-                with 8+ years of experience building full-stack and AI-powered platforms.
-                I work across secure software development, systems thinking, and product delivery.
-                I’m also a swimming coach with three years of experience.
+                I build secure, useful digital products, bringing together cybersecurity,
+                software engineering, and hands-on experience as a swimming coach.
               </p>
 
               <div class="action-row">
-                <a class="button primary" href="mailto:idrissof813@proton.me">Email me</a>
-                <a class="button secondary" href="#projects">View projects</a>
+                <a class="button primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+                <a class="button secondary" href="#contact">Get in touch</a>
               </div>
 
-              <ul class="quick-facts" aria-label="Quick facts">
-                <li>8+ years building full-stack systems</li>
-                <li>Swimming coach | 3 years of experience</li>
-                <li>Computer Science student</li>
-                <li>Available for remote collaboration</li>
-              </ul>
+              <p class="hero-note">Computer Science student <span aria-hidden="true">·</span> 3 years coaching experience</p>
             </div>
 
-            <aside class="hero-panel" aria-label="Professional profile overview">
-              <div class="panel-card">
+            <div class="hero-portrait">
+              <div class="portrait-frame">
                 <img
                   class="profile-photo"
                   src="./assets/idriss-chiheb.png"
@@ -82,16 +80,15 @@
                   width="768"
                   height="1024"
                 />
-                <p class="panel-label">Profile</p>
-                <h2>Secure systems and product delivery</h2>
-                <ul>
-                  <li>Cybersecurity & threat analysis</li>
-                  <li>Full-stack web development</li>
-                  <li>AI-powered product platforms</li>
-                  <li>System architecture & practical security</li>
-                </ul>
               </div>
-            </aside>
+              <a class="portrait-action" href="#projects" aria-label="Explore my projects">
+                <span aria-hidden="true">&lt;/&gt;</span>
+              </a>
+            </div>
+
+            <a class="scroll-cue" href="#about" aria-label="Scroll down to About">
+              <span aria-hidden="true">↓</span>
+            </a>
           </div>
         </section>
 
@@ -377,8 +374,8 @@
                 <p>Professional cybersecurity learning pathway with a focus on practical security fundamentals.</p>
               </div>
               <div class="credential">
-                <h3 lang="ar" dir="rtl">شهادة مربي رياضي درجة أولى</h3>
-                <p>First-Degree Sports Educator qualification.</p>
+                <h3 lang="ar" dir="rtl">First-Degree Sports Educator qualification.</h3>
+                <p>Swimming Coach with 3 years of work experience</p>
               </div>
             </div>
           </div>
